@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
-import GoogleFontLoader from 'react-google-font-loader';
+// import GoogleFontLoader from 'react-google-font-loader';
 import Loader from './Utils/Loader';
 
 import { useDispatch, useSelector } from 'react-redux';
@@ -58,12 +58,12 @@ const Routes = () => {
                     </MainLayout>
                 }
             </>
-            <GoogleFontLoader 
+            {/* <GoogleFontLoader 
                 fonts={[
                     {font: "Roboto", weights: [300, 400, 900]},
                     {font: "Fredoka One"}
                 ]}
-            />
+            /> */}
         </BrowserRouter>
     )
 };
